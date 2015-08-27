@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical" android:baselineAligned="false">
+    <ru.mydroid.SquareLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center" >
+
+        <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:stretchColumns="*" >
+
+            <TableRow>
+
+                <ru.mydroid.SquareButton android:id="@+id/button11" />
+
+                <ru.mydroid.SquareButton android:id="@+id/button12" />
+
+                <ru.mydroid.SquareButton android:id="@+id/button13" />
+
+                <ru.mydroid.SquareButton android:id="@+id/button14" />
+            </TableRow>
+
+            <TableRow>
+
+                <ru.mydroid.SquareButton android:id="@+id/button21" />
+
+                <ru.mydroid.SquareButton android:id="@+id/button22" />
+
+                <ru.mydroid.SquareButton android:id="@+id/button23" />
+
+                <ru.mydroid.SquareButton android:id="@+id/button24" />
+            </TableRow>
+
+            <TableRow>
+
+                <ru.mydroid.SquareButton android:id="@+id/button31" />
+
+                <ru.mydroid.SquareButton android:id="@+id/button32" />
+
+                <ru.mydroid.SquareButton android:id="@+id/button33" />
+
+                <ru.mydroid.SquareButton android:id="@+id/button34" />
+            </TableRow>
+
+            <TableRow>
+
+                <ru.mydroid.SquareButton android:id="@+id/button41" />
+
+                <ru.mydroid.SquareButton android:id="@+id/button42" />
+
+                <ru.mydroid.SquareButton android:id="@+id/button43" />
+
+                <ru.mydroid.SquareButton android:id="@+id/button44" />
+            </TableRow>
+        </TableLayout>
+
+    </ru.mydroid.SquareLayout>
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mix"
+                android:id="@+id/buttonMix" android:layout_centerVertical="true" android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" android:paddingLeft="40sp" android:paddingRight="40sp"
+                style="@style/ServiceButton"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/stepQty" android:layout_alignTop="@+id/buttonMix"
+                android:layout_alignParentRight="true" android:layout_alignParentEnd="true" android:textSize="30sp"
+                android:text="Steps Qty: 0"/>
+    </RelativeLayout>
+
+</LinearLayout>
